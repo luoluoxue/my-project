@@ -11,7 +11,7 @@ module.exports = {
     assetsSubDirectory: 'static',
     assetsPublicPath: './',
     proxyTable: {},
-    outputDir: 'docs',
+    outputDirectory: 'docs',
 
     // Various Dev Server settings
     host: 'localhost', // can be overwritten by process.env.HOST
@@ -52,7 +52,7 @@ module.exports = {
     assetsRoot: path.resolve(__dirname, '../dist'),
     assetsSubDirectory: 'static',
     assetsPublicPath: './',
-    outputDir: 'docs', // 打包输出的文件名称（不配置也可以，默认是dist）
+    outputDirectory: 'docs', // 打包输出的文件名称（不配置也可以，默认是dist）
 
     /**
      * Source Maps
