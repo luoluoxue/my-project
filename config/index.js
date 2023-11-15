@@ -9,8 +9,9 @@ module.exports = {
 
     // Paths
     assetsSubDirectory: 'static',
-    assetsPublicPath: '/',
+    assetsPublicPath: './',
     proxyTable: {},
+    outputDir: 'docs',
 
     // Various Dev Server settings
     host: 'localhost', // can be overwritten by process.env.HOST
