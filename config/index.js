@@ -50,7 +50,8 @@ module.exports = {
     // Paths
     assetsRoot: path.resolve(__dirname, '../dist'),
     assetsSubDirectory: 'static',
-    assetsPublicPath: '/',
+    assetsPublicPath: './',
+    outputDir: 'docs', // 打包输出的文件名称（不配置也可以，默认是dist）
 
     /**
      * Source Maps
